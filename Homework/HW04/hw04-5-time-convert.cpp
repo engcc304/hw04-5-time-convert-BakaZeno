@@ -17,8 +17,8 @@
 #include <stdio.h>
 int main(){
     int days,seconds;
-    printf("Input Days");
-    scanf("%d",&seconds);
+    printf("Input Days :\n");
+    scanf("%d",&days);
     seconds = days*86400;
     printf("%d days = %d seconds",days,seconds);
 }
